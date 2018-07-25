@@ -1,0 +1,81 @@
+/* styles for musician website */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+footer {
+	width: 100%;
+}
+
+footer img {
+	width: 100%;
+}
+
+p {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 2em;
+	text-align: center;
+	color: rgba(22,99,113,1);
+	margin: 3em;
+}
+
+header {
+	width: 100%;
+}
+
+header img {
+	max-height: 1400px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+
+h1 {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 1em;
+	text-align: center;
+	justify-content: center;
+	color: black;	
+}
+
+/* 
+.homepage {
+	background-image: url("pictures/homepage.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+ */
+
+
+.albums {
+	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font: sans-serif;
+}
+
+.albums p {
+	width: 600px;
+	font-family: 'Overpass Mono', monospace;
+	font-size: 1.5em;
+	text-align: center;
+	color: rgba(22,99,113,1);
+	padding: 10em;
+}
+
+.albums img {
+	width: 100%;
+	max-width: 600px;
+	align-self: center;
+	margin: 2em;
+}
+
+
