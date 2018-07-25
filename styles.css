@@ -55,20 +55,20 @@ h1 {
 
 
 .albums {
-	margin: 1em;
+	margin: 1em 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	font: sans-serif;
+	align-items: center;
 }
 
-.albums p {
-	width: 600px;
+.albums a {
+	width: 100%;
+	max-width: 600px;
 	font-family: 'Overpass Mono', monospace;
-	font-size: 1.5em;
+	font-size: 1em;
 	text-align: center;
 	color: rgba(22,99,113,1);
-	padding: 10em;
 }
 
 .albums img {
@@ -79,3 +79,10 @@ h1 {
 }
 
 
+@media only screen and (max-width: 485px) {
+		
+	p {
+		font-size: .8em;
+	}
+	
+}
